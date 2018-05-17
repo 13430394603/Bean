@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<context  type="context" width="230" height="21" title="67" paddingLeft="75" paddingTop="43">
+	<container type="container1" width="112" height="34" marginLeft="87" marginTop="23">
+		<service class="container1-com.chen.Service4" />
+	</container>
+	<container type="container1" width="112" height="34" marginLeft="87" marginTop="23">
+		<service class="container1-com.chen.Service4" />
+	</container>
+</context>

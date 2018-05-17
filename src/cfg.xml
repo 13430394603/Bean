@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+规则讲解
+	beans 
+	属性： namespace：即当前所在的包环境
+	
+	bean 
+	属性： id class：类名或者类全路径（类名会加上namespace形成全路径） buildType：single/normal/prototype
+	
+	property 
+	属性： id class：同上       buildType：同上 
+ -->
+<beans namespace="com.Bean.test">
+	<bean id="testBean" class="TestBean">
+		<property id="param" class="Param"/>
+	</bean>
+</beans>
