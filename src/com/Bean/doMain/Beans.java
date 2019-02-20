@@ -29,6 +29,7 @@ public class Beans {
 			for(Map.Entry<String, Property> item : bean.getPropertys().entrySet()){
 				Property pro = item.getValue();
 				Object instancePro = getInstance(pro, pro.getBuildType());
+				//反射操作 操作的对象instance； 操作的属性名为getKey； 操作后的值为instancePro
 				SetterGetter.setProperty(instance, item.getKey(), instancePro);
 			}
 		}
